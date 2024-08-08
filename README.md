@@ -7,3 +7,13 @@ This GF_eta package shows how to calculate the geometry phase of a seismic field
 Here are two steps in the
 
 ## Requirements
+Python ≥ 3.6
+obspy
+matplotlib
+numpy
+scipy
+datetime
+tqdm
+fnmatch
+
+
