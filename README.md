@@ -6,7 +6,7 @@ This GF_eta package shows how to calculate the geometry phase of a seismic field
 
 cc.sh: A MSNoise job script. We use the MSNoise software to cross-correlate continuous seismic data. The output includes daily noise correlation functions (NCFs) between every two seismic stations.
 
-eta.py: 
+eta.py: Calculating temporal changes in geometric phase ($\Delta \eta$) based on daily NCFs.
 
 ## Requirements
 This package should be run in a Python environment with the following required modules and recommended versions:
