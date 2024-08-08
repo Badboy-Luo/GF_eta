@@ -4,8 +4,7 @@
 Our algorithm shows how to calculate changes in geometric phase from Green's function.
 
 
-\begin{equation}
-		C_t (\omega) = \frac{1}{\sqrt{\sum_{n=1}^{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2} } 
+C_t (\omega) = \frac{1}{\sqrt{\sum_{n=1}^{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2} } 
 	\left(
 		\begin{array}{c}
 			C^{1}e^{i\phi_{1}}	\\
@@ -14,6 +13,4 @@ Our algorithm shows how to calculate changes in geometric phase from Green's fun
 			C^{N}e^{i\phi_{n}}		
 		\end{array}
 	\right)
-	\quad,
-	\label{vector}
-\end{equation}
+
