@@ -1,4 +1,5 @@
 # GF_eta
 
 ## Introduction
-Our alogrithm shows how to calculate changes in geometric phase from Green's function.
+Our algorithm shows how to calculate changes in geometric phase from Green's function.
+$\eta$
