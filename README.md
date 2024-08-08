@@ -39,12 +39,15 @@ $$ C_t (\omega) = \frac{1}{ \sqrt{ \sum_{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2 
 			... \\
 			C^{N}e^{i\phi_{n}}		
 		\end{array}
-	\right) $$
-
-The change in geometric phase ($\Delta \eta$) of daily vector $C_{t}$ with respect to the reference $C_{ref}$ can be represented by their angle difference: 
+	\right) , $$
  
-$$ \Delta \eta(\omega,t) \approx arcos \left[ \textbf{Re}\left( C_{ref}^* \cdot C_t \right) \right]  \quad and \quad \Delta \eta \in [0,\pi] $$
+where the complex state vector at a certain day $t$, $C_t(\omega)$, is a function of frequency $\omega$ and consists of $N$ components. We apply the Fast Fourier Transform to each component of $C^N e^{i\phi_{n}}$, which includes its both real ($\textbf{Re}$) and imaginary ($\textbf{Im}$) parts. The denominator is to normalize all magnitudes to scale all components at the same level.
 
+The change in geometric phase ($\Delta \eta$) of daily $C_{t}$ with respect to the reference $C_{ref}$ can be represented by their angle difference: 
+ 
+$$ \Delta \eta(\omega,t) \approx arcos \left[ \textbf{Re}\left( C_{ref}^* \cdot C_t \right) \right]  \quad and \quad \Delta \eta \in [0,\pi] , $$
+
+We measure the angle difference by taking the $arcos$ function of the real part of the dot product between these two complex vectors. $^*$ denotes the complex conjugate.
 
 
 ## Usage
