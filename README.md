@@ -7,7 +7,7 @@ This GF_eta package shows how to calculate the geometry phase of a seismic field
 Here are two steps in the
 
 ## Requirements
-\index Python≥3.6 MSNoise obspy matplotlib numpy scipy datetime tqdm fnmatch
+Python≥3.6\\ MSNoise\\ obspy matplotlib numpy scipy datetime tqdm fnmatch
 
 ## Usage
 
