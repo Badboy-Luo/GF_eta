@@ -11,19 +11,29 @@ eta.py: Calculating temporal changes in geometric phase ($\Delta \eta$) based on
 ## Requirements
 This package should be run in a Python environment with the following required modules and recommended versions:
 
-Python = 3.7 
+Python 3.7 
 
-MSNoise = 1.6.3 (A seismic data processing tool: http://msnoise.org/doc)
+MSNoise 1.6.3 (A seismic data processing tool: http://msnoise.org/doc)
 
-obspy = 1.3.1
+obspy 1.3.1
 
-matplotlib = 3.5.3
+matplotlib 3.5.3
 
-numpy = 1.17.0
+numpy 1.17.0
 
-scipy = 1.7.3
+scipy 1.7.3
 
-tqdm = 4.66.1
+tqdm 4.66.1
+
+
+## Methodology
+
+
+![eq1](https://github.com/user-attachments/assets/433e9ca2-1176-40e5-bebf-e9bc591546de)
+
+![eq2](https://github.com/user-attachments/assets/2d52b4af-d121-4c3f-adac-d85684ba5fc8)
+
+
 
 
 
