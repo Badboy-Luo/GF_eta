@@ -1,5 +1,5 @@
 # GF_eta   
-<img src="logo/UA.png" width="55%"> <img src="logo/newfos_logo.png" width="40%"> 
+<img src="logo/newfos_logo.png" width="40%"> 
 
 
 ## Introduction
