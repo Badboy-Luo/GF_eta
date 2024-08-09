@@ -71,7 +71,7 @@ tqdm 4.66.1
 ## Citation
 Our latest manuscript is being submitted:
 
-*Luo, B., Deymier, P. A., Beck, S. L., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland.*
+*Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland.*
 
 
 ## Acknowledgment
