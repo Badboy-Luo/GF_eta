@@ -65,12 +65,13 @@ tqdm 4.66.1
 ## Citation
 Our latest manuscript is being submitted:
 
-``` Bingxu Luo, Pierre A. Deymier, Susan L. Beck, Keith Runge, Falk Huettmann, Skyler DeVaughn, Marat Latypov. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland. ```
+` Bingxu Luo, Pierre A. Deymier, Susan L. Beck, Keith Runge, Falk Huettmann, Skyler DeVaughn, Marat Latypov. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland. `
 
 
 ## Acknowledgment
 
-This package is supported by the New Frontiers of Sound (NewFoS) Science and Technology Center at University of Arizona, which is sponsored by U.S. National Science Foundation (Grant Number 2242925).
+The package and research are supported by the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center at University of Arizona, which is sponsored by U.S. National Science Foundation (Grant Number 2242925).
+
 
 
 
