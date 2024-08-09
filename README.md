@@ -4,13 +4,19 @@
 
 
 ## Introduction
+
 The geometric phase is a global measure of the spatial geometry of an acoustic or seismic field, making it a highly sensitive metric to changes in the wave supporting medium.
 The changes in geometric phase ($\Delta \eta$) exhibits very high sensitivity to environmental changes and has the potential of making significant contributions to climate change.
-This GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise recordings.
+This GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise recordings in Iceland.
 
-``` cc.sh ```: A MSNoise job script. We use the MSNoise (A seismic data processing tool: http://msnoise.org/doc) to cross-correlate continuous seismic data. The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
+Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation and is based at the University of Arizona in Tucson.
 
-``` eta.py ```: A Python script. Calculating $\Delta \eta$ time series based on daily NCFs.
+
+## What's inside our package
+
+`cc.sh`: A MSNoise job script. We use the MSNoise (A seismic data processing tool: http://msnoise.org/doc) to cross-correlate continuous seismic data. The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
+
+`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature.
 
 
 
@@ -65,12 +71,11 @@ tqdm 4.66.1
 ## Citation
 Our latest manuscript is being submitted:
 
-` Bingxu Luo, Pierre A. Deymier, Susan L. Beck, Keith Runge, Falk Huettmann, Skyler DeVaughn, Marat Latypov. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland. `
+` Luo, B., Deymier, P. A., Beck, S. L., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland. `
 
 
 ## Acknowledgment
 
-The package and research are supported by the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center at University of Arizona, which is sponsored by U.S. National Science Foundation (Grant Number 2242925).
 
 
 
