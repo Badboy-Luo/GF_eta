@@ -1,6 +1,6 @@
 # GF_eta   
 
-<img src="logo/newfos_logo.png" width="30%" align='right'>
+<img src="logo/newfos_logo.png" width="30%" align='middle'>
 
 
 ## Introduction
@@ -62,4 +62,5 @@ tqdm 4.66.1
 
 ## Usage
 
-## Authors and acknowledgment
+## Acknowledgment
+This package is supported by the New Frontiers of Sound (NewFoS) Science and Technology Center at University of Arizona, which is sponsored by U.S. National Science Foundation (Grant Number 2242925).
