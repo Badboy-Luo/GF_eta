@@ -1,5 +1,6 @@
 # GF_eta   
-<img src="logo/newfos_logo.png" width="40%"> 
+
+<img src="logo/newfos_logo.png" width="30%" align='right'>
 
 
 ## Introduction
@@ -9,7 +10,7 @@ This GF_eta package shows how to calculate the geometry phase of a seismic field
 
 ``` cc.sh ```: A MSNoise job script. We use the MSNoise (A seismic data processing tool: http://msnoise.org/doc) to cross-correlate continuous seismic data. The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
 
-``` eta.py ```: Calculating $\Delta \eta$ time series based on daily NCFs.
+``` eta.py ```: A Python script. Calculating $\Delta \eta$ time series based on daily NCFs.
 
 
 
