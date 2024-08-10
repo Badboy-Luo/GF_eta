@@ -20,7 +20,7 @@ You can customize the control parameters by following the [instruction](http://m
 
 `eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature.
 
-`ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local area in Iceland.
+`ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.
 
 
 
