@@ -6,7 +6,7 @@
 ## Introduction
 
 The geometric phase is a global measure of the spatial geometry of an acoustic or seismic field, making it a highly sensitive metric to changes in the ground properties.
-This GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise cross-correlations.
+The GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise cross-correlations.
 
 Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation and is based at the University of Arizona in Tucson.
 
@@ -54,11 +54,10 @@ We measure the angle difference by taking the $arcos$ function of the real part 
 
 
 ## Requirements
-This package should be run in a Python environment with the following required modules and recommended versions:
+
+The `eta.py` script should be run in a Python environment with the following required modules and recommended versions:
 
 Python 3.7 
-
-MSNoise 1.6.3 
 
 obspy 1.3.1
 
@@ -70,11 +69,13 @@ scipy 1.7.3
 
 tqdm 4.66.1
 
+Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to start from seismic data cross-correlations and output NCFs:
+
+MSNoise 1.6.3 
 
 
 
 ## Usage
-Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to start from seismic data cross-correlations and output NCFs.
 
 
 ## Citation
