@@ -69,7 +69,7 @@ scipy 1.7.3
 
 tqdm 4.66.1
 
-(Optional) Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to start from seismic data cross-correlations and output NCFs:
+(Optional) Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to use it to cross-correlate seismic data and output NCFs:
 
 MSNoise 1.6.3 
 
@@ -77,6 +77,12 @@ MSNoise 1.6.3
 
 ## Usage
 
+### Seismic cross-correlation (optional)
+Put `Raw_data` and `cc.sh` in the same folder, open a terminal and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
+You can also use other softwares or scripts to output NCFs.
+
+### Geometric phase measurements
+Put `NCFs` and `eta.py` in the same folder, open a terminal and run `python eta.py` in the command line.
 
 ## Citation
 Our latest manuscript is being submitted:
