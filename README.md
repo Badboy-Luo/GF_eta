@@ -69,7 +69,7 @@ scipy 1.7.3
 
 tqdm 4.66.1
 
-Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to start from seismic data cross-correlations and output NCFs:
+(Optional) Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to start from seismic data cross-correlations and output NCFs:
 
 MSNoise 1.6.3 
 
