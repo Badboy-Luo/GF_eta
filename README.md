@@ -18,11 +18,13 @@ The output are daily noise correlation functions (NCFs) between every two seismi
 You can customize the control parameters by following the [instruction](http://msnoise.org/doc/workflow/001_msnoise_admin.html).
 We directly provide the output in `NCFs`.
 
-`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature.
+`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output` and the plot in `figures`
 
 `cc_spec.py`: A python script to evaluate the Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
 
 `NCFs`: Daily NCFs between every two seismic station recordings. All daily NCFs have been stacked every 10 days to enhance the reconstruction of GFs.
+
+`output`: The folder saves measured $\Delta \eta$. Each file name includes the reference station (MA1, MA2, MA4, MA6, MA7, MEI05).
 
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.
 
