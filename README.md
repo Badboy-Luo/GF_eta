@@ -20,6 +20,8 @@ We directly provide the output in `NCFs`.
 
 `eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature.
 
+`cc_spec.py`: A python script to evaluate the Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
+
 `NCFs`: Daily NCFs between every two seismic station recordings. All daily NCFs have been stacked every 10 days to enhance the reconstruction of GFs.
 
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.
