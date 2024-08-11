@@ -78,7 +78,7 @@ MSNoise 1.6.3
 ## Usage
 
 ### Seismic cross-correlation (optional)
-Put `Raw_data` and `cc.sh` in the same folder, open a terminal and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
+Put the seismic noise recordings and `cc.sh` in the same folder, open a terminal and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
 You can also use other softwares or scripts to output NCFs.
 
 ### Geometric phase measurements
