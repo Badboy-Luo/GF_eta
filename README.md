@@ -1,6 +1,6 @@
 # GF_eta   
 
-<img src="logo/newfos_logo.png" width="30%" align='middle'>
+<img src="logo/newfos_logo.png" width="40%" align='middle'>
 
 
 ## Introduction
