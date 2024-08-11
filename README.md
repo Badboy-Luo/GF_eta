@@ -29,7 +29,7 @@ The output is a Pearson's correlation matrix at each frequency and reference sta
 
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.
 
-`figures`: Example plots from `eta.py`.
+`figures`: Example plots from `eta.py` and `cc_spec.py`.
 
 
 
