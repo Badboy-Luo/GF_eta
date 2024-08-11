@@ -24,7 +24,7 @@ We directly provide the output in `NCFs`.
 
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.
 
-
+`figures`: Examples after running `eta.py`.
 
 
 
