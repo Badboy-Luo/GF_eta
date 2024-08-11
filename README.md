@@ -35,7 +35,7 @@ The output is a Pearson's correlation matrix at each frequency and reference sta
 
 ## Methodology
 
-We follow this criteria to calculate the $\Delta \eta (\omega)$. The complex state vector $C_{t}(\omega)$ can be built by involving NCFs as follows:
+We start building the complex state vector $C_{t}(\omega)$ that involves NCFs as follows:
 
 $$ C_t (\omega) = \frac{1}{ \sqrt{ \sum^{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2 } } 
 	\left(
