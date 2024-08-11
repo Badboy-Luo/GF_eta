@@ -16,7 +16,7 @@ Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizon
 `cc.sh`: A MSNoise job script. We use the [MSNoise](http://msnoise.org/doc) (A seismic data processing tool) to cross-correlate continuous seismic data. 
 The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
 You can customize the control parameters by following the [instruction](http://msnoise.org/doc/workflow/001_msnoise_admin.html).
-We directly provide the output in `NCFs`.
+We directly provide the daly NCFs in `NCFs`.
 
 `eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output`.
 
