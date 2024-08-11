@@ -8,7 +8,7 @@
 The geometric phase is a global measure of the spatial geometry of an acoustic or seismic field, making it a highly sensitive metric to changes in the ground properties.
 The GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise cross-correlations.
 
-Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation and is based at the University of Arizona in Tucson.
+Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation (Grant Number 2242925) and is based at the University of Arizona in Tucson.
 
 
 ## What's inside the package
@@ -85,14 +85,17 @@ You can also use other softwares or scripts to output NCFs.
 
 ### Geometric phase measurements
 Put `NCFs` and `eta.py` in the same folder, open a terminal and run `python eta.py` in the command line.
+Save measured $\Delta \eta$ in `output` folder.
+
+### Analysis between $\Delta \eta$ and surface air temperature
+Put `output` and `cc_spec.py` in the same folder, run `python cc_spec.py`.
+
 
 ## Citation
 Our latest manuscript is being submitted:
 
 *Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland.*
 
-
-## Acknowledgment
 
 
 
