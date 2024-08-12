@@ -31,6 +31,8 @@ The output is a Pearson's correlation matrix at each frequency and reference sta
 
 `figures`: Example plots from `eta.py` and `cc_spec.py`.
 
+The seismic array information is available in the [FDSN](https://www.fdsn.org/networks/) (network code 4Q for MA1, MA2, MA4, MA6, MA7, and code 2C for MEI05), the seismic noise recordings can be downloaded using [obspy](https://docs.obspy.org/packages/autogen/obspy.clients.fdsn.mass_downloader.html#continuous-request) python tool.
+
 
 
 ## Methodology
