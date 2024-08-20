@@ -95,7 +95,7 @@ Our latest manuscript is being submitted:
 *Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland.*
 
 
-## Contact us
+## Contact
 
 **Bingxu Luo**  
 Postdoctoral Research Associate I  
