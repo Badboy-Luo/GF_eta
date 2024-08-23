@@ -17,8 +17,11 @@ Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizon
 The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
 You can customize the control parameters by following the [instruction](http://msnoise.org/doc/workflow/001_msnoise_admin.html).
 We directly provide the daly NCFs in `NCFs`.  
-`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output include a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output`.  
-`cc_spec.py`: A python script to evaluate the Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
+`station`: A folder that includes information of all seismic stations.    
+`custom.py`: A Python script that imports all station information into the MSNoise.
+
+`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output includes a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output`.  
+`cc_spec.py`: A python script that evaluates the Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
 The output is a Pearson's correlation matrix at each frequency and reference station.  
 `NCFs`: Daily NCFs between every two seismic station recordings. All daily NCFs have been stacked every 10 days to enhance the reconstruction of GFs.  
 `output`: The folder saves measured $\Delta \eta$. Each file name includes the reference station (MA1, MA2, MA4, MA6, MA7, MEI05).  
