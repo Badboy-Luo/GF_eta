@@ -14,16 +14,15 @@ Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizon
 ## What's inside the package
 
 `cc.sh`: A MSNoise job script. We use the [MSNoise](http://msnoise.org/doc) (A seismic data processing tool) to cross-correlate continuous seismic data. 
-The output are daily noise correlation functions (NCFs) between every two seismic stations, approximating GFs between every two sites.
+The output is daily cross-correlation functions (CCFs) between every two seismic stations, approximating GFs between every two sites.
 You can customize the control parameters by following the [instruction](http://msnoise.org/doc/workflow/001_msnoise_admin.html).
-We directly provide the daly NCFs in `NCFs`.  
-`station`: A folder that includes information of all seismic stations.    
-`custom.py`: A Python script that imports all station information into the MSNoise.
+We directly provide the daily CCFs in `CCFs` and `CCFs2`.      
+`custom.py`: A Python script that populates all stations throughout their `.xml` files into the MSNoise. `.xml` files can be downloaded with seismic data.
 
-`eta.py`: A Python script to calculate $\Delta \eta$ by using daily NCFs. The output includes a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output`.  
-`cc_spec.py`: A python script that evaluates the Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
+`eta.py`: A Python script to calculate $\Delta \eta$ by using daily CCFs. The output includes a time-frequency plot of $\Delta \eta(\omega,t)$, and $\Delta \eta$ time series along with local surface air temperature. We directly provide the measured $\Delta \eta$ in `output`.  
+`cc_spec.py`: A Python script that evaluates Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
 The output is a Pearson's correlation matrix at each frequency and reference station.  
-`NCFs`: Daily NCFs between every two seismic station recordings. All daily NCFs have been stacked every 10 days to enhance the reconstruction of GFs.  
+`CCFs` and `CCFs2`: Daily CCFs between every two seismic station recordings. All daily CCFs have been stacked every 10 days to enhance the reconstruction of GFs.  
 `output`: The folder saves measured $\Delta \eta$. Each file name includes the reference station (MA1, MA2, MA4, MA6, MA7, MEI05).  
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.  
 `figures`: Example plots from `eta.py` and `cc_spec.py`.
@@ -34,7 +33,7 @@ The seismic array information is available in the [FDSN](https://www.fdsn.org/ne
 
 ## Methodology
 
-We start building the complex state vector $C_{t}(\omega)$ that involves NCFs between the reference station and others as follows:  
+We start building the complex state vector $C_{t}(\omega)$ that involves CCFs between the reference station and others as follows:  
 
 $$ C_t (\omega) = \frac{1}{ \sqrt{ \sum^{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2 } } 
 	\left(
@@ -83,14 +82,14 @@ MSNoise 1.6.3
 
 ### Seismic cross-correlation (optional)
 Put the seismic noise recordings, `cc.sh`, `station`, and `custom.py` in the same folder, open a terminal and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
-You can also use other softwares or scripts to output NCFs.
+You can also use other software or scripts to output CCFs.
 
 ### Geometric phase measurements
-Put `NCFs` and `eta.py` in the same folder, open a terminal and run `python eta.py` in the command line.
-Save measured $\Delta \eta$ in `output` folder.
+Put `CCFs` and `eta.py` in the same folder, open a terminal, and run `python eta.py` in the command line.
+Save measured $\Delta \eta$ in the `output` folder.
 
 ### Analysis between $\Delta \eta$ and surface air temperature
-Put `output` and `cc_spec.py` in the same folder, run `python cc_spec.py`.
+Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
 
 
 ## Citation
