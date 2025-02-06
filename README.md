@@ -86,6 +86,7 @@ Open the terminal, and run `bash cc.sh` in the command line after [installing](h
 You can also use other software or scripts to output CCFs.
 
 ### Geometric phase measurements
+Unzip all CCFs in both `CCFs` and `CCFs2` and put them together in `CCFs`.  
 Put `CCFs` and `eta.py` in the same folder, open a terminal, and run `python eta.py` in the command line.  
 You will see two plots of $\Delta \eta$ in the output folder `etas`, which are the same as plots in `figures`.   
 You can save measured $\Delta \eta$ as individual files as those in the `output` if you uncomment "Save eta as .npy files" in the script `eta.py`.
