@@ -81,12 +81,13 @@ MSNoise 1.6.3
 ## Usage
 
 ### Seismic cross-correlation (optional)
-Put the downloaded seismic noise recordings, `cc.sh`, and `custom.py` in the same folder. Create a `station` folder and put `.xml` files for all stations in. Open the terminal, direct to the current folder, and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
+Put the downloaded seismic noise recordings, `cc.sh`, and `custom.py` in the same folder. Create a `station` folder and put `.xml` files for all stations in.   
+Open the terminal, and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise.   
 You can also use other software or scripts to output CCFs.
 
 ### Geometric phase measurements
-Put `CCFs` and `eta.py` in the same folder, open a terminal, and run `python eta.py` in the command line.
-You will see two plots of $\Delta \eta$ in the output folder `etas`, which are the same as plots in `figures`. 
+Put `CCFs` and `eta.py` in the same folder, open a terminal, and run `python eta.py` in the command line.  
+You will see two plots of $\Delta \eta$ in the output folder `etas`, which are the same as plots in `figures`.   
 You can save measured $\Delta \eta$ as individual files as those in the `output` if you uncomment "Save eta as .npy files" in the script `eta.py`.
 
 ### Analysis between $\Delta \eta$ and surface air temperature
@@ -95,7 +96,7 @@ Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
 
 ## Citation
 Our latest manuscript is being submitted:  
-*Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2024). Geometric phase sensing of environmental changes based on seismic noise: An application from Iceland.*
+*Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2025). Geometric phase sensing of environmental changes based on ambient seismic noise: An application from Iceland.*
 
 
 ## Contact
