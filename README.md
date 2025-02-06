@@ -23,11 +23,11 @@ We directly provide the daily CCFs in `CCFs` and `CCFs2`.
 `cc_spec.py`: A Python script that evaluates Pearson's correlation spectrum between $\Delta \eta$ and surface air temperature.
 The output is a Pearson's correlation matrix at each frequency and reference station.  
 `CCFs` and `CCFs2`: Daily CCFs between every two seismic station recordings. All daily CCFs have been stacked every 10 days to enhance the reconstruction of GFs.  
-`output`: The folder saves measured $\Delta \eta$. Each file name includes the reference station (MA1, MA2, MA4, MA6, MA7, MEI05).  
+`output`: The folder saves measured $\Delta \eta$. Each file name includes the reference station (MA1, MA2, MA3, MA4, MA6, MA7, MEI05).  
 `ERA5`: The ERA5 environmental datasets (surface air temperature, surface pressure, and snow depth) at the local study area in Iceland.  
 `figures`: Example plots from `eta.py` and `cc_spec.py`.
 
-The seismic array information is available in the [FDSN](https://www.fdsn.org/networks/) (network code 4Q for MA1, MA2, MA4, MA6, MA7, and code 2C for MEI05), the seismic noise recordings can be downloaded using [obspy](https://docs.obspy.org/packages/autogen/obspy.clients.fdsn.mass_downloader.html#continuous-request) python tool.
+The seismic array information is available in the [FDSN](https://www.fdsn.org/networks/) (network code 4Q for MA1, MA2, MA3, MA4, MA6, MA7, and code 2C for MEI05), the seismic noise recordings can be downloaded using [obspy](https://docs.obspy.org/packages/autogen/obspy.clients.fdsn.mass_downloader.html#continuous-request) python tool.
 
 
 
@@ -81,12 +81,13 @@ MSNoise 1.6.3
 ## Usage
 
 ### Seismic cross-correlation (optional)
-Put the seismic noise recordings, `cc.sh`, `station`, and `custom.py` in the same folder, open a terminal and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
+Put the downloaded seismic noise recordings, `cc.sh`, and `custom.py` in the same folder. Create a `station` folder and put `.xml` files for all stations in. Open the terminal, direct to the current folder, and run `bash cc.sh` in the command line after [installing](http://msnoise.org/doc/installation.html) the MSNoise. 
 You can also use other software or scripts to output CCFs.
 
 ### Geometric phase measurements
 Put `CCFs` and `eta.py` in the same folder, open a terminal, and run `python eta.py` in the command line.
-Save measured $\Delta \eta$ in the `output` folder.
+You will see two plots of $\Delta \eta$ in the output folder `etas`, which are the same as plots in `figures`. 
+You can save measured $\Delta \eta$ as individual files as those in the `output` if you uncomment "Save eta as .npy files" in the script `eta.py`.
 
 ### Analysis between $\Delta \eta$ and surface air temperature
 Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
