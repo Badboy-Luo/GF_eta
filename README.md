@@ -96,7 +96,7 @@ Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
 
 
 ## Citation
-Our latest manuscript is being submitted:  
+Our latest manuscript has been submitted to *Journal of Geophysical Research: Earth Surface*:  
 *Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2025). Geometric phase sensing of environmental changes based on ambient seismic noise: An application from Iceland.*
 
 
