@@ -8,7 +8,7 @@
 The geometric phase is a global measure of the spatial geometry of an acoustic or seismic field, making it a highly sensitive metric to changes in the ground properties.
 The GF_eta package shows how to calculate the geometry phase of a seismic field by reconstructing the ground Green's function (GF) through seismic noise cross-correlations.
 
-Our team is belong to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation (Grant Number 2242925) and is based at the University of Arizona in Tucson.
+Our team belongs to the New Frontiers of Sound ([NewFoS](https://newfos.arizona.edu/)) Science and Technology Center, which is funded by the National Science Foundation (Grant Number 2242925) and is based at the University of Arizona in Tucson.
 
 
 ## What's inside the package
@@ -96,15 +96,16 @@ Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
 
 
 ## Citation
-Our latest manuscript has been submitted to *Journal of Geophysical Research: Earth Surface*:  
-*Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2025). Geometric phase sensing of environmental changes based on ambient seismic noise: An application from Iceland.*
+Please find and cite our publication at:  
+*Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. (2025). [Geometric phase sensing of environmental changes based on ambient seismic noise: An application from Iceland](https://doi.org/10.1029/2025EA004509). Earth and Space Science*
 
 
 ## Contact
 
 **Bingxu Luo**  
-Postdoctoral Research Associate I  
-*Department of Geosciences, University of Arizona*  
+Postdoctoral Researcher | Environmental Seismology  
+*New Frontiers of Sound (NewFoS) Science and Technology Center*  
+*Department of Geosciences, University of Arizona*   
 bingxuluo@arizona.edu
 
 
