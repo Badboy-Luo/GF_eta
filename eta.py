@@ -50,9 +50,9 @@ pairs = [file for file in os.listdir(path) if fnmatch(file,'*%s*'%ref_st)]
 
 
 # Build the reference vector
-ref_mag = 0
 ref_allday = []
 for ref_d in dateRange('2020-01-01','2020-01-31'):
+    ref_mag = 0
     ref_daily_vectors = []
     num = 0
     for i in range(len(pairs)):
