@@ -46,7 +46,7 @@ $$ C_{\omega,t} = \frac{1}{ \sqrt{ A_{1}^{2} + A_{2}^{2} + A_{3}^{2} + ... + A_{
 		\end{array}
 	\right) , $$
  
-where the complex state vector $C_{\omega,t}$ is a function of both time $t$ and frequency $\omega$, consisting of $N$ components (total number of NCFs). We apply the Fast Fourier Transform to each component of $A_{n} e^{i\phi_{n}}$. The denominator is used to normalize the magnitudes for all components to scale all components at the same level.
+where the complex state vector $C_{\omega,t}$ is a function of both time $t$ and frequency $\omega$, consisting of $N$ components (total number of CCFs). We apply the Fast Fourier Transform to each component of $A_{n} e^{i\phi_{n}}$. The denominator is used to normalize the magnitudes for all components to scale all components at the same level.
 
 The change in geometric phase ($\Delta \eta$) of $C_{\omega,t}$ with respect to the reference $C_{\omega,ref}$ can be represented by their angle difference:   
 
@@ -73,7 +73,7 @@ scipy 1.7.3
 
 tqdm 4.66.1
 
-(Optional) Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to use it to cross-correlate seismic data and output NCFs:  
+(Optional) Please [install](http://msnoise.org/doc/installation.html) the MSNoise properly if you want to use it to cross-correlate seismic data and output CCFs:  
 
 MSNoise 1.6.3 
 
