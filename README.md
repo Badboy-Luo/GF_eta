@@ -33,23 +33,24 @@ The seismic array information is available in the [FDSN](https://www.fdsn.org/ne
 
 ## Methodology
 
-We start building the complex state vector $C_{t}(\omega)$ that involves CCFs between the reference station and others as follows:  
+We start building the complex state vector $C_{\omega,t}$ that involves CCFs between the reference station and others as follows:  
 
-$$ C_t (\omega) = \frac{1}{ \sqrt{ \sum^{N} \textbf{Re}(n)^2 + \textbf{Im}(n)^2 } } 
+$$ C_{\omega,t} = \frac{1}{ \sqrt{ A_{1}^{2} + A_{2}^{2} + A_{3}^{2} + ... + A_{n}^{2} } } 
 	\left(
 		\begin{array}{c}
-			C^{1}e^{i\phi_{1}}	\\
-			C^{2}e^{i\phi_{2}} \\
+			A_{1}e^{i\phi_{1}}	\\
+			A_{2}e^{i\phi_{2}} \\
+			A_{3}e^{i\phi_{3}} \\
 			... \\
-			C^{N}e^{i\phi_{n}}		
+			A_{n}e^{i\phi_{n}}		
 		\end{array}
 	\right) , $$
  
-where the complex state vector at a certain day $t$, $C_t(\omega)$, is a function of frequency $\omega$ and consists of $N$ components (number of NCFs). We apply the Fast Fourier Transform to each component of $C^N e^{i\phi_{n}}$, which includes its both real ($\textbf{Re}$) and imaginary ($\textbf{Im}$) parts. The denominator is to normalize all magnitudes to scale all components at the same level.
+where the complex state vector $C_{\omega,t}$ is a function of both time $t$ and frequency $\omega$, consisting of $N$ components (total number of NCFs). We apply the Fast Fourier Transform to each component of $A_{n} e^{i\phi_{n}}$. The denominator is used to normalize the magnitudes for all components to scale all components at the same level.
 
-The change in geometric phase ($\Delta \eta$) of daily $C_{t}$ with respect to the reference $C_{ref}$ can be represented by their angle difference:   
+The change in geometric phase ($\Delta \eta$) of $C_{\omega,t}$ with respect to the reference $C_{\omega,ref}$ can be represented by their angle difference:   
 
-$$ \Delta \eta(\omega,t) \approx arcos \left[ \textbf{Re}\left( C_{ref}^* \cdot C_t \right) \right]  \quad and \quad \Delta \eta \in [0,\pi] , $$  
+$$ \Delta \eta(\omega,t) \approx arcos \left[ \textbf{Re}\left( C_{\omega,ref}^* \cdot C_{\omega,t} \right) \right]  \quad and \quad \Delta \eta \in [0,\pi] , $$  
 
 We measure the angle difference by taking the $arcos$ function of the real part of the dot product between these two complex vectors. $^*$ denotes the complex conjugate.
 
