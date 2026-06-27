@@ -100,7 +100,7 @@ Put `output` and `cc_spec.py` in the same folder, and run `python cc_spec.py`.
 Please find and cite our publication at:  
 **Luo, B., Deymier, P., Beck, S., Runge, K., Huettmann, F., DeVaughn, S., Latypov, M. Geometric phase sensing of environmental changes based on ambient seismic noise: An application from Iceland. Earth and Space Science (2025). https://doi.org/10.1029/2025EA004509**
 
-**Luo, B., Beck, S., Deymier, P., Runge, K., Kiser, E., Moitra, P., Huettmann, F., Missoum, S., Latypov, M., Whitney, E., Wang, J., Schabib, S. Geometric phase sensing using seismic waves for comprehensive volcano monitoring at Kı̄lauea Hawaii. Nat Commun (2026). https://doi.org/10.1038/s41467-026-73998-x**
+**Luo, B., Beck, S., Deymier, P., Runge, K., Kiser, E., Moitra, P., Huettmann, F., Missoum, S., Latypov, M., Whitney, E., Wang, J., Schabib, S. Geometric phase sensing using seismic waves for comprehensive volcano monitoring at Kı̄lauea Hawaii. Nature Communications (2026). https://doi.org/10.1038/s41467-026-73998-x**
 
 
 ## Contact
